@@ -1,0 +1,179 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+}
+.left-col {
+  background-color: black;
+  color: white;
+  max-width: 18%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.right-col {
+  animation: changeColor 5s infinite alternate;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.left-col,
+.right-col {
+  flex: 1;
+  padding: 20px;
+}
+
+.circle_container {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/headshot.jpeg);
+  margin-right: 20px;
+}
+
+.squarepic {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/otherheadshot.JPG);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 15px;
+}
+
+.flying {
+  width: 400px;
+  height: 200px;
+  overflow:visible;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/squid.gif);
+  position: absolute;
+  top: 0px;
+  left: 272px;
+}
+
+.circle-and-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  animation: changeColor 5s infinite alternate;
+  border-radius: 10px;
+  padding: 3px 5px;
+  text-shadow: 10px 10px 10px rgba(146, 184, 23, 0.5);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: large;
+}
+
+.nav2 {
+  font-family:monospace ;
+  font-size: medium;
+}
+.nav a, .nav2 a {
+  color: white;
+}
+.nav a:hover, .nav2 a:hover {
+  color: gray;
+  text-decoration: none;
+}
+.left-col-footer hr {
+  border-style:groove;
+  margin-top: 0; 
+  border-width: 5px;
+}
+
+
+
+.cutecatgif img {
+  width: 50%;
+}
+
+.gif-and-name {
+  display: flex;
+}
+
+.left-col-footer {
+  margin-top: 0;
+}
+
+.footer {
+  background-color: rgb(17, 16, 16);
+  display: flex;
+  justify-content: center;
+}
+
+.other-circle-container {
+    width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/headshot.jpeg); 
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.aboutMichael {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-container {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px; 
+}
+
+
+.box {
+   width: 400px; 
+   height: 70px; 
+   background-color: #4f4a4a; 
+   margin: 0 10px; /
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.nav3 a{
+color: white;
+}
+.nav3 {
+  font-size: large;
+}
+
+.nav5 a {
+  color: white;
+}
+@keyframes changeColor {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: #03390b61; 
+  }
+  50% {
+    background-color: #9000ff53; 
+  }
+  100% {
+    background-color: #0000ff99; 
+  }
+}
