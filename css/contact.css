@@ -139,29 +139,42 @@ body {
 .box-container {
    display: flex;
    justify-content: space-around;
-   margin-top: 20px; 
+   margin-top: 20px; /* Adjust as needed */
 }
 
 
-.box {
-   width: 400px; 
-   height: 70px; 
-   background-color: #4f4a4a; 
+.box2 {
+  width: 600px; 
+   height: 350px; 
+   background-color: #4f4a4a;
    margin: 0 10px; 
    border-radius: 10px;
    display: flex;
    flex-direction: column;
    align-items: center;
 }
+.home a{
+  color: white;
+}
+
+.box3 {
+ background-color: black;
+ color: white; 
+  width: 600px;
+  height: 50px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+.box3 h5 {
+padding-left: 2%;
+}
 .nav3 a{
 color: white;
 }
+
 .nav3 {
   font-size: large;
-}
-
-.nav5 a {
-  color: white;
 }
 @keyframes changeColor {
   0% {
@@ -174,6 +187,6 @@ color: white;
     background-color: #9000ff53; 
   }
   100% {
-    background-color: #0000ff99; 
+    background-color: #0000ff99;
   }
 }
